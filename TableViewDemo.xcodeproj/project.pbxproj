@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E03F2F9281693DC009302FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03F2F8281693DC009302FE /* ViewController.swift */; };
 		9E0EBADA280FF19B0064228F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EBAD9280FF19B0064228F /* AppDelegate.swift */; };
 		9E0EBADC280FF19B0064228F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EBADB280FF19B0064228F /* SceneDelegate.swift */; };
-		9E0EBADE280FF19B0064228F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EBADD280FF19B0064228F /* ViewController.swift */; };
 		9E0EBAE1280FF19B0064228F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0EBADF280FF19B0064228F /* Main.storyboard */; };
 		9E0EBAE3280FF19B0064228F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0EBAE2280FF19B0064228F /* Assets.xcassets */; };
 		9E0EBAE6280FF19B0064228F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0EBAE4280FF19B0064228F /* LaunchScreen.storyboard */; };
+		9E0EBAEE280FF8050064228F /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EBAED280FF8050064228F /* DemoTableViewController.swift */; };
+		9E2939812817E19A00160204 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2939802817E19A00160204 /* FristViewController.swift */; };
+		9E6DEF512812AFE3004928AB /* songlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DEF502812AFE3004928AB /* songlist.swift */; };
+		9E6DEF542812B146004928AB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9E6DEF532812B146004928AB /* Kingfisher */; };
+		9E6DEF5628166E75004928AB /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DEF5528166E75004928AB /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E03F2F8281693DC009302FE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E0EBAD6280FF19B0064228F /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0EBAD9280FF19B0064228F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E0EBADB280FF19B0064228F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E0EBADD280FF19B0064228F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E0EBAE0280FF19B0064228F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E0EBAE2280FF19B0064228F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0EBAE5280FF19B0064228F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0EBAE7280FF19B0064228F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0EBAED280FF8050064228F /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		9E2939802817E19A00160204 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
+		9E6DEF502812AFE3004928AB /* songlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songlist.swift; sourceTree = "<group>"; };
+		9E6DEF5528166E75004928AB /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6DEF542812B146004928AB /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +68,12 @@
 			children = (
 				9E0EBAD9280FF19B0064228F /* AppDelegate.swift */,
 				9E0EBADB280FF19B0064228F /* SceneDelegate.swift */,
-				9E0EBADD280FF19B0064228F /* ViewController.swift */,
 				9E0EBADF280FF19B0064228F /* Main.storyboard */,
+				9E2939802817E19A00160204 /* FristViewController.swift */,
+				9E03F2F8281693DC009302FE /* ViewController.swift */,
+				9E6DEF5528166E75004928AB /* SongTableViewCell.swift */,
+				9E6DEF502812AFE3004928AB /* songlist.swift */,
+				9E0EBAED280FF8050064228F /* DemoTableViewController.swift */,
 				9E0EBAE2280FF19B0064228F /* Assets.xcassets */,
 				9E0EBAE4280FF19B0064228F /* LaunchScreen.storyboard */,
 				9E0EBAE7280FF19B0064228F /* Info.plist */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = TableViewDemo;
+			packageProductDependencies = (
+				9E6DEF532812B146004928AB /* Kingfisher */,
+			);
 			productName = TableViewDemo;
 			productReference = 9E0EBAD6280FF19B0064228F /* TableViewDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 9E0EBACD280FF19B0064228F;
+			packageReferences = (
+				9E6DEF522812B146004928AB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9E0EBAD7280FF19B0064228F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0EBADE280FF19B0064228F /* ViewController.swift in Sources */,
+				9E6DEF512812AFE3004928AB /* songlist.swift in Sources */,
 				9E0EBADA280FF19B0064228F /* AppDelegate.swift in Sources */,
+				9E6DEF5628166E75004928AB /* SongTableViewCell.swift in Sources */,
+				9E2939812817E19A00160204 /* FristViewController.swift in Sources */,
+				9E03F2F9281693DC009302FE /* ViewController.swift in Sources */,
 				9E0EBADC280FF19B0064228F /* SceneDelegate.swift in Sources */,
+				9E0EBAEE280FF8050064228F /* DemoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E6DEF522812B146004928AB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E6DEF532812B146004928AB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E6DEF522812B146004928AB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E0EBACE280FF19B0064228F /* Project object */;
 }
